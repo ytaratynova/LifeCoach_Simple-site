@@ -675,3 +675,77 @@ body {
         gap: 24px;
     }
 }
+
+@media screen and (max-width:767px) {
+
+    .question {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 56px;
+
+        &_1 {
+            padding: 24px 20% 0 20%;
+        }
+
+        &_2 {
+            padding: 24px 20% 0 20%;
+        }
+    }
+
+    .ownerabout {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        &__content {
+            padding: 20%;
+
+        }
+    }
+
+    .resourses {
+        &__content {
+            grid-template-columns: 1fr;
+        }
+
+        &__element {
+            margin-bottom: 64px;
+        }
+    }
+
+    .experience {
+        grid-template-columns: 1fr;
+
+        &__content {
+            padding-top: 20%;
+            padding-bottom: 20%;
+        }
+    }
+
+    .appeal {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+    }
+
+    .date {
+        &__content {
+            grid-template-columns: 1fr;
+
+        }
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        &__down {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            gap: 48px;
+        }
+    }
+}
