@@ -588,6 +588,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .container {
+    max-width: 767px;
+  }
   .question {
     display: grid;
     grid-template-columns: 1fr;
